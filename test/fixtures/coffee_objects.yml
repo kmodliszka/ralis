@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  type_of: MyString
+  origin: MyString
+  price: 9.99
+  weight: 1
+
+two:
+  name: MyString
+  type_of: MyString
+  origin: MyString
+  price: 9.99
+  weight: 1
