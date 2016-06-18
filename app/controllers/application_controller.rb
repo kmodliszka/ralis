@@ -10,6 +10,9 @@ class ApplicationController < ActionController::Base
   end 
   
   def kontakt
+    @a = ["kot", "pies", "mysz"]
+    @b = ["piwo", "wino", "cydr"]
+    @c = [[2, 3], [4, 5], [20, 30]]
   end 
   
 end

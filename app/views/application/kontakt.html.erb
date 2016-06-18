@@ -1,0 +1,30 @@
+<p><%= Time.zone.now %></p>
+<p><%= 2+3 %></p>
+<p><%= 0.2 + 0.4 %></p>
+<p><%= @a.join("-") %></p>
+
+<ol>
+<% @a.each do |el| %>
+  <li> <%= el %> </li>
+<% end %>
+</ol>
+
+
+<div>
+<% @b.each do |el| %>
+  <h1> <%= el.reverse.reverse %> </h1>
+<% end %>
+</div>
+
+
+
+<div>
+<% @c.each do |el| %>
+  <p> <%= "dodaje #{el[0]} i #{el[1]} wynik to jest #{el[0]+el[1]}" %> </p>
+<% end %>
+</div>
+
+
+
+
+
